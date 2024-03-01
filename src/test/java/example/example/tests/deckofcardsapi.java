@@ -119,7 +119,7 @@ public class deckofcardsapi extends BaseTest {
 	         LoggerUtil.log("value  of card is : " +jsonArray.getJSONObject(k).getString("value"));
 	        if (NumberUtils.isParsable(totalvalue) ) {
 	        	totalvalueint=Integer.parseInt(totalvalue);
-	        	finaltotalvalueint=totalvalueint+totalvalueint;
+	        	finaltotalvalueint=finaltotalvalueint+totalvalueint;
 	        	System.out.println("Final card value is  : " + finaltotalvalueint);
 	        	 LoggerUtil.log("Final card value is  : " + finaltotalvalueint);
 	        	//6.	Check whether either has blackjack

@@ -125,7 +125,7 @@ public class deckofcardsapi extends BaseTest {
 	        	//6.	Check whether either has blackjack
 				// Add the Total value of cards 
 	        	
-	        	if (finaltotalvalueint==24) {
+	        	if (finaltotalvalueint==21) {
 					System.out.println("================================================================");
 					 
 					System.out.println("Blackjack Yes or No   : " + "True");
@@ -142,7 +142,7 @@ public class deckofcardsapi extends BaseTest {
 	
 	       }	         
 	         
-	    //int totalvalueint= 24; 
+	    //int totalvalueint= 21; 
 		if (i==5) {
 		System.out.println("================================================================");
 		System.out.println("deck ID   is  : " + deck_id3);
